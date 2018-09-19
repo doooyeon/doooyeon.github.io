@@ -41,7 +41,7 @@ h5,
 h6 {
     font-family: $font-family-headings;
     line-height: 1.3;
-    margin: 0.67em 0;
+    margin: 1.5em 0 0.67em 0;
     a {
         color: $text-color;
     }
@@ -131,6 +131,10 @@ li {
         margin-bottom: 0;
         margin-left: 1em;
     }
+}
+
+.post-content > ul > li {
+    margin-bottom: 1em;
 }
 
 ol,
