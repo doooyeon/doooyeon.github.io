@@ -7,9 +7,9 @@ tags: [HTTP, Connectionless, stateless, cookie, 쿠키, session, 세션]
 <!--more-->
 
 ### HTTP 프로토콜의 특징
-* **비연결 지향(Connectionless)**
+* 비연결 지향(Connectionless)
     * 클라이언트가 request를 서버에 보내고, 서버가 클라이언트에 요청에 맞는 response를 보내면 바로 연결을 끊는다.
-* **상태정보 유지 안 함(Stateless)**
+* 상태정보 유지 안 함(Stateless)
     * 연결을 끊는 순간 클라이언트와 서버의 통신은 끝나며 상태 정보를 유지하지 않는다.
 * 쿠키와 세션의 필요성
     * HTTP 프로토콜은 위와 같은 특징으로 모든 요청 간 의존관계가 없다.
@@ -32,7 +32,7 @@ tags: [HTTP, Connectionless, stateless, cookie, 쿠키, session, 세션]
     * 보안 연결 여부(Secure)
     * HttpOnly 여부(HttpOnly)
 * 동작 방식  
-    <img src="./images/cookie-process.png" width="40%" height="40%">
+    <img src="{{ site.baseurl }}/assets/img/post/cookie-process.png" width="70%" height="70%">
     1. 웹브라우저가 서버에 요청
     2. 상태를 유지하고 싶은 값을 쿠키(cookie)로 생성
     3. 서버가 응답할 때 HTTP 헤더(Set-Cookie)에 쿠키를 포함해서 전송
@@ -53,7 +53,7 @@ tags: [HTTP, Connectionless, stateless, cookie, 쿠키, session, 세션]
     * 일정 시간 동안 같은 브라우저로부터 들어오는 요청을 하나의 상태로 보고 그 상태를 유지하는 기술이다.
     * 즉, 웹 브라우저를 통해 서버에 접속한 이후부터 브라우저를 종료할 때까지 유지되는 상태이다.
 * 동작 방식  
-     <img src="./images/session-process.png" width="55%" height="55%">
+     <img src="{{ site.baseurl }}/assets/img/post/session-process.png" width="90%" height="90%">
     1. 웹브라우저가 서버에 요청
     2. 서버가 해당 웹브라우저(클라이언트)에 유일한 ID(Session ID)를 부여함
     3. 서버가 응답할 때 HTTP 헤더(Set-Cookie)에 Session ID를 포함해서 전송  
@@ -86,6 +86,8 @@ tags: [HTTP, Connectionless, stateless, cookie, 쿠키, session, 세션]
 * 속도
     * 쿠키 : 클라이언트에 저장되어서 서버에 요청 시 빠르다.
     * 세션 : 실제 저장된 정보가 서버에 있으므로 서버의 처리가 필요해 쿠키보다 느리다.
+
+<br>
 
 ---
 ### Reference
