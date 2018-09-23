@@ -1,2 +1,2 @@
-# doooyeon.github.io
+# doy.github.io
 Doy's Development Blog
