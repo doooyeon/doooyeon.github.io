@@ -1,5 +1,5 @@
 # SITE CONFIGURATION"
-url: "https:doy.github.io"
+url: "https:doooyeon.github.io"
 title: Doy's Development Blog # site's title
 description: "A website with blog posts and pages" # used by search engines
 
@@ -14,14 +14,14 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-      <h1>Doy's Development Blog</h1>
+      Doy's Development Blog
   header_text_feature_image: assets/img/pexels/computer2.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: ehdus5958@naver.com # Full email address, e.g. "sam@example.com"
+  email_address: pdy5957@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
